@@ -1,5 +1,5 @@
 body {
-    background: darksalmon;
+    background: rgb(32, 26, 24);
 }
 
 img {
@@ -7,12 +7,32 @@ img {
     border-radius: 20px;
 }
 
+img.headshot {
+    width: 20vw;
+    border-radius: none;
+    display: inline-block;
+}
+
+p.bio {
+    display: inline-block;
+    float: top;
+}
+
 div {
-    background: cornflowerblue;
-    padding: 30px;
-    border-radius: 20px;
-    margin: 5px auto;
+    background: rgb(108, 104, 216);
+    padding: 30px 30px 50px 30px;
+    margin: 5px auto 0 auto;
     width: 80vw;
+    box-shadow: 5px 5px 5px inset rgb(86, 1, 72);
+}
+
+div.bio {
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 0;
+}
+
+div.projects {
+    border-radius: 0 0 20px 20px;
 }
 
 section {
@@ -22,9 +42,10 @@ section {
 
 a {
     text-decoration: none;
-    background: lime;
+    background: rgb(27, 223, 249);
     padding: 5px;
     border-radius: 20px;
+    display: inline-block;
 }
 
 .projects {
@@ -32,17 +53,10 @@ a {
     border-radius: 20px;
 }
 
-.projectdiv {
-    background: orange;
-    padding: 5px 30px;
-    border-radius: 20px;
-    margin: 5px auto;
-}
-
 h2 {
-    border-radius: 20px;
     border: 3px solid grey;
-    padding: 5px;
-    margin: 0;
+    padding: 5px 30px;
+    margin: 5px 50px 0 50px;
     text-justify: center;
+    background: whitesmoke
 }
